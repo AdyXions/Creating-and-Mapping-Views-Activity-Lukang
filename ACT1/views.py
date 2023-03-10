@@ -12,8 +12,12 @@ def vision(request):
     title = "Vision"
     content = "The College of Computing and Multimedia Studies shall be a center of excellence in delivering Computing and Multimedia education."
     return render(request, "ccms.html", {'type':title, 'content':content})
-def objective(request):
-    title = "Objective"
-    content = "3"
+def objectives(request):
+    title = "Objectives"
+    content = """
+    Be employes and demonstrate professionalism, competence and passion in solving contemporary comuting problems by developing or utilizing innovative IT solutions. 
+    Embark in lifelong learning or research to attune to the continuous innovation in the IT industry in order to adapt to the changing demands of the global market.
+    Exhibit leadership and teamwork, and commitment to their respective local or global organizations.
+    """
     return render(request, "ccms.html", {'type':title, 'content':content})
 

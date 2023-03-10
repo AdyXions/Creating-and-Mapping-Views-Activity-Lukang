@@ -22,6 +22,6 @@ urlpatterns = [
     path('index/', views.index),
     path('mission/', views.mission),
     path('vision/', views.vision),
-    path('objective/', views.objective),
+    path('objectives/', views.objectives),
 ]
 
